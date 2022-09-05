@@ -1,0 +1,7 @@
+% based on https://tex.stackexchange.com/a/452629/31360
+
+\ProvidesFile{ceri/sty/hal_id.dbx}[2018/07/15 HAL/TEL eprints]
+\DeclareDatamodelFields[type=field,datatype=verbatim]{arxiv,hal}
+\DeclareDatamodelEntryfields{hal}
+\DeclareDatamodelFields[type=field,datatype=literal]{arxivclass}
+\DeclareDatamodelEntryfields{arxivclass}

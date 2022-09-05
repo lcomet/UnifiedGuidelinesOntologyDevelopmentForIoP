@@ -1,0 +1,75 @@
+Changelog :
+v4.2.8  - 07/05/2021 : ajout d'une date de mise à jour (\dateUpdt).
+v4.2.7  - 30/03/2021 : fond coloré pour les théorèmes, définitions, etc.
+v4.2.6  - 28/01/2021 : précision sur les renvois d'équations, correction de quelques bugs mineurs
+v4.2.5  - 11/01/2021 : ajout du sous-titre
+v4.2.4  - 06/01/2021 : ajout de la section sur le correcteur orthographique
+v4.2.3  - 04/10/2020 : mention du type de colonne p pour les tables, définition des types R et L (mode math)
+v4.2.2  - 30/08/2020 : mention de Detexify, ajustement de la taille et de l'alignement vertical des puces de listes
+v4.2.1  - 21/06/2020 : alignement vertical des flottants sur la dernière page
+v4.2    - 29/04/2020 : nouvelle page de titre (version bleue)
+v4.1.2  - 03/04/2020 : réduit le niveau de gras, gardé le niveau précédent via commande \textbbf{...}
+v4.1.1  - 19/01/2020 : ajout des affiliations pour les rapports de recherche
+v4.1.1  - 18/01/2020 : mise à jour du diagramme de Gantt
+v4.1    - 13/01/2020 : correction de quelques bugs mineurs
+v4      - 12/01/2020 : nouvelle charte graphique de l'université, gestion de l'UCE, correction de quelques bugs
+v3.8.15 - 04/11/2019 : correction problème incompatibilité package microtype
+v3.8.14 - 02/11/2019 : mise en forme hal-id, désactivation du package lstlinebgrd
+v3.8.13 - 30/06/2019 : référence à une note de bas de page (footmisc)
+v3.8.12 - 13/03/2019 : fixed graphical bug in listings, completed content
+v3.8.11 - 08/02/2019 : fixed environment beware, captions for consoletext & filetext
+v3.8.10 - 27/01/2019 : option pour la macro \advisor, ajout section plagiat, macro pour les remarques
+v3.8.9  -    01/2019 : commandes croix/check, corrigé bug encodage signets PDF
+v3.8.8  -    01/2019 : bug sur l'affichage de la date
+v3.8.7  -    01/2019 : figures géométriques avec GeoGebra
+v3.8.6  -    01/2019 : sous-figures et sous-tables, éditeur externe de tables
+v3.8.5  -    01/2019 : création de l'option "handout"
+v3.8.4  -    01/2019 : ajustements sur les listings
+v3.8.3  -    01/2019 : ajustements sur les algorithmes
+v3.8.2  -    01/2019 : renommage de la classe
+v3.8.1  -    12/2018 : ajout de contenu (diagrammes, code source...)
+v3.8    -    12/2018 : passage à LuaLaTeX, refonte de l'arborescence des fichiers
+v3.7.14 -    12/2018 : diagrammes de Gantt
+v3.7.13 -    12/2018 : corrections mineures dans le contenu
+v3.7.12 -    11/2018 : environnement console vs. fichier, lecture de table à partir de fichier
+v3.7.11 -    10/2018 : surlignage dans les listings
+v3.7.10 -    10/2018 : ajout d'un environnement pour afficher du texte brut
+v3.7.9  -    09/2018 : ajout d'un paragraphe sur les diagrammes
+v3.7.8  -    06/2018 : ajout d'un champ tuteur optionnel, traduction de certains noms de macro
+v3.7.7  -    06/2018 : refonte complète du contenu, correction de bugs mineurs
+v3.7.6  -    05/2018 : ajout d'une date optionnelle
+v3.7.5  -    04/2018 : correction bug couleur en-tête/pied-de-page
+v3.7.4  -    03/2018 : définition des sections par un package plus approprié
+v3.7.3  -    12/2017 : corrections diverses dans le contenu
+v3.7.2  -    12/2017 : précision sur les références bibliographiques
+v3.7.1  -    11/2017 : corrections diverses dans le contenu
+v3.7    -    11/2017 : paragraphes désormais plus numérotés, insertion optionnelle d'un résumé
+v3.6    -    10/2017 : passage de la bibliographie en BibLaTeX (au lieu de BibTeX)
+v3.5    -    09/2017 : ajout du pseudo-code (package algorithm2e) et du groupe en page de titre
+v3.4    -    10/2016 : un nom d'auteur par ligne, titre possible sur deux lignes
+v3.3    -    05/2016 : ajout de l'option "full" (page de garde, tables des figures et tableaux)
+v3.2    -    04/2016 : ajout de l'option "light" (pas de page de garde, compilation plus rapide)
+v3.1    -    02/2016 : package icomma pour les virgules décimales en français
+v3      -    01/2016 : définition de la classe LaTeX, correction de quelques erreurs dans le texte
+v2.4    -    12/2015 : diverses modifications du contenu du document
+v2.3    -    04/2015 : page de titre complétée (date, adresse postale, long titre)
+v2.2    -    03/2015 : correction de quelques bugs
+v2.1    -    03/2015 : définition de la page de titre
+v2      -    02/2015 : modèle complètement refait
+v1      -    10/2014 : forme de rapport très différente
+
+À faire :
+- Package algorithm2e : 
+  - Comportement légende pas raccord : devrait être centré si mono-ligne, justifié sinon (là il faut choisir l'un ou l'autre).
+  - Ajouter un exemple de *fonction* (algo) dans le contenu.
+- Tables :
+  - Exemple prenant toute la largeur de la page (intégrer ce qui a été fait dans le rapport de la BRÉF)
+  - voir si l'exemple de table haute ne pourrait pas être simplifié en utilisant l'environnement columns et en gardant la table normale (sans minipage).
+- Gantt :
+  - Éditeur externe : Team Gantt (https://www.teamgantt.com/) peut générer du PDF, mais pas terrible à intégrer dans un document.
+- Polices :
+  - Ne faudrait-il pas passer à Polyglossia au lieu de Babel ?
+  - Les ligatures (de type fi) ne semblent pas traitées
+- PDF/Hyperref :
+  - Warning hyperref sur les légendes des consoles/fichiers texte
+  - Signets PDF : mettre les listes de tables dans le signet "Titre" (ou couverture ?)
