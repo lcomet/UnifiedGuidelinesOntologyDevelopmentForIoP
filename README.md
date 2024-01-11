@@ -10,9 +10,11 @@ To develop this guideline, we studied and unified best practices and existing me
 
 # How to Cite
 If you use the Unified Guidelines for Ontology Development for IOP in scientific work, please cite it as below.
+```
 @misc{MolinasComet22,
   author = {Molinas Comet, Lina},
   title = {Guidelines for the Creation of Semantic Models in the Internet of Production (IOP)},
   year = {2022},
   url = {https://github.com/lcomet/UnifiedGuidelinesOntologyDevelopmentForIoP/blob/main/Guideline_OntologiesDevelopment_IOP-V3.pdf},
 }
+```
