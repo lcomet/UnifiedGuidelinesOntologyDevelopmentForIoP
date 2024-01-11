@@ -7,3 +7,12 @@ Even though there exist several methodologies for ontology development, there is
 The scope of this document is to provide an intuitive guideline in the form of a digital guide to help Domain Experts (DEs) to create semantic models, more specifically ontologies, mostly on their own but still collaborating with Knowledge Experts (KEs). Also, we present an overview of existing domain-specific ontologies in the production and manufacturing domain and a catalogue of existing ontologies. Reusing existing ones instead of creating a new one from scratch will allow interoperability of the new ontology with existing ones. Our proposed guideline allows both DEs and KEs to work in a coordinated way to create and maintain ontologies efficiently.
 
 To develop this guideline, we studied and unified best practices and existing methodologies used for ontology development. In this way, we support stakeholders who design ontologies to model knowledge on the IoP.
+
+# How to Cite
+If you use the Unified Guidelines for Ontology Development for IOP in scientific work, please cite it as below.
+@misc{MolinasComet22,
+  author = {Molinas Comet, Lina},
+  title = {Guidelines for the Creation of Semantic Models in the Internet of Production (IOP)},
+  year = {2022},
+  url = {https://github.com/lcomet/UnifiedGuidelinesOntologyDevelopmentForIoP/blob/main/Guideline_OntologiesDevelopment_IOP-V3.pdf},
+}
