@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use the Unified Guidelines for Ontology Development for IOP in scientific work, please cite it as below."
+authors:
+  - family-names: Molinas Comet
+    given-names: Lina
+    orcid: https://orcid.org/0000-0001-5446-6947
+title: "Guidelines for the Creation of Semantic Models in the Internet of Production (IOP)"
+version: 0.3
+date-released: 2022-09-11
